@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 
 // Connecting with the port
-app.listen(3000, function() {
-	console.log('listening to the port 3000');
+app.listen(3001, function() {
+	console.log('listening to the port 3001');
 });
 
 app.get('/', function(req, res) {
